@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# REVIEW
 
-* Ruby version
+* MVC + RAILS
 
-* System dependencies
+* Rails: framework which is easy to use, spins up applications quickly, based on Ruby
 
-* Configuration
+* Model - talks to the database & represents the data
+* View - renders HTML to client & displays data to users
+* Controller - calls actions that communicate with model & view
 
-* Database creation
+* Router - information from client to controller
 
-* Database initialization
+* Rails Routes: `verb "prefix", to: "controller#action"`
+* Root route: `root to: "controller#action"`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Generate new controller: `rails g controller controller_name_plural`
